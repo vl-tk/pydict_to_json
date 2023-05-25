@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "pydict_to_json: convert python dict to JSON",
+        "command": "pydict_to_json"
+    }
+]
