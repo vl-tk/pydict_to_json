@@ -14,7 +14,7 @@ class PydictToJsonCommand(sublime_plugin.TextCommand):
                     _dict = OrderedDict(text)
                 elif type(text) == list:
                     _dict = text
-                replace_text = json.dumps(_dict, indent=4)
+                replace_text = json.dumps(_dict, ensure_ascii=False, indent=4)
             except Exception as e:
                 print(e)
             else:
