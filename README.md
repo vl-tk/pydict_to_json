@@ -10,7 +10,7 @@ git clone https://github.com/vl-tk/pydict_to_json.git
 
 ### Usage
 
-1) select printed dict
+1) select printed dict or list
 
 2) Command Palette (Ctrl+Shift+P) - type command name and apply it to text
 
